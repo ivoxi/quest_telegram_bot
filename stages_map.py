@@ -24,7 +24,7 @@ def create_stages(user):
                    'next_stage': 35,
                    'update': {'Имя': user.name}}
               ],
-              image='.venv/images/1_scene.png'),
+              image='images/1_scene.png'),
         Stage(number=2,
               description="Притянув к себе ноутбук, Ан нажала на кнопку запуска.\n" \
                           "Вас встретила эмблема глаза и\n" \
